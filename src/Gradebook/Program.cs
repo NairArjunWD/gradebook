@@ -12,6 +12,7 @@ namespace Gradebook
             book.AddGrade(90.5);
             book.AddGrade(77.5);
             book.ShowStatistics();
+            // Making change to push due to merge conflict.
         }
     }
 }
