@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "UeKIz+XjFTF7PTPrtPNCwiVH2VlbZA2TZwCbfkGZRoT+veABMRgD/hxsxHdztoe+4KyU3sV63M01945p0lpPXw==",
+  "dgSpecHash": "QBct+LM5qS8M33FO1iwc6jdEClXYTi0av5Vphgjg/XfsJfj2+FWtcwFTwb/IDbCSxjmiL18jAZvaOxgLS3v3fQ==",
   "success": true,
   "projectFilePath": "/Users/arjunnair/Desktop/csharp/projects/gradebook/test/Gradebook.Tests/Gradebook.Tests.csproj",
   "expectedPackageFiles": [
-    "/Users/arjunnair/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
     "/Users/arjunnair/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/arjunnair/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/arjunnair/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",
