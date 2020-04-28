@@ -16,11 +16,18 @@ namespace Gradebook
             grades.Add(56.1);
 
             var result = 0.0;
+            var highestGrade = double.MinValue;
+            var lowestGrade = double.MaxValue;
+
             foreach(var number in grades)
             {
+                lowestGrade = Math.Min(number, lowestGrade);
+                highestGrade = Math.Max(number, highestGrade);
                 result += number;
             }
             result /= grades.Count;
+            Console.WriteLine($"The lowest grade is {lowestGrade}");
+            Console.WriteLine($"The highest grade is {highestGrade}");
             Console.WriteLine($"The average grade is {result:N1}");
         }
     }
