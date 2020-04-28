@@ -94,3 +94,5 @@
 /Users/arjunnair/Desktop/csharp/projects/gradebook/test/Gradebook.Tests/obj/Debug/netcoreapp3.1/Gradebook.Tests.dll
 /Users/arjunnair/Desktop/csharp/projects/gradebook/test/Gradebook.Tests/obj/Debug/netcoreapp3.1/Gradebook.Tests.pdb
 /Users/arjunnair/Desktop/csharp/projects/gradebook/test/Gradebook.Tests/obj/Debug/netcoreapp3.1/Gradebook.Tests.genruntimeconfig.cache
+/Users/arjunnair/Desktop/csharp/projects/gradebook/test/Gradebook.Tests/bin/Debug/netcoreapp3.1/Gradebook.dll
+/Users/arjunnair/Desktop/csharp/projects/gradebook/test/Gradebook.Tests/bin/Debug/netcoreapp3.1/Gradebook.pdb
