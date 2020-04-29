@@ -8,7 +8,7 @@ namespace Gradebook
         static void Main(string[] args)
         {
             var book = new Book("Class Gradebook");
-            
+
             while(true)
             {
                 Console.WriteLine("Enter a grade or 'q' to quit");
@@ -19,8 +19,27 @@ namespace Gradebook
                     break;
                 }
 
-                var grade = double.Parse(input);
-                book.AddGrade(grade);
+                try 
+                {
+                    var grade = double.Parse(input);
+                    book.AddGrade(grade);   
+                }
+
+                catch(ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+
+                catch(FormatException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                
+                finally
+                {
+                    Console.WriteLine("**")
+                }
+
             }
             
             var stats = book.GetStatistics();
