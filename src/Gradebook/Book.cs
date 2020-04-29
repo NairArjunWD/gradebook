@@ -88,6 +88,15 @@ namespace Gradebook
         }
 
         private List<double> grades;
-        public string Name;
+        
+        // Read Only Property
+        public string Name
+        {
+            get;
+            private set;
+        }
+
+        public const string category = "Science";
+
     }
 }
