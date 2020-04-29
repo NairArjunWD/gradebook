@@ -7,6 +7,11 @@ namespace Gradebook
 
     public class NamedObject
     {
+        public NamedObject(string name)
+        {
+            Name = name;
+        }
+
         public string Name
         {
             get;
@@ -14,9 +19,18 @@ namespace Gradebook
         }
     }
 
-    public class Book : NamedObject
+    public abstract class Book : NamedObject
     {
-        public Book(string name)
+        public Book(string name) : base(name)
+        {
+        }
+
+        public abstract void AddGrade(double grade)
+    }
+
+    public class InMemoryBook : Book
+    {
+        public InMemoryBook(string name) : base(name)
         {
             grades = new List<double>();
             Name = name;
@@ -45,7 +59,7 @@ namespace Gradebook
             }
         }
 
-        public void AddGrade(double grade)
+        public override void AddGrade(double grade)
         {
             if(grade <= 100 && grade >= 0)
             {
